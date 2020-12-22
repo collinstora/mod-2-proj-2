@@ -1,15 +1,10 @@
+.jumbotron {
+	background-image: url("images/mountain-header.jpg");
+}
 .row2, .row9 {
 	background-color: #8FCD16;
 }
 
-.row4 {
-	background-color: #313130;
-}
-
 .btn {
 	background-color: #8FCD16 !important;
-}
-
-.row4 h3 p {
-	color: #FFFFFF !important;
 }
