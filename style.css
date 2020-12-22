@@ -1,5 +1,7 @@
 .jumbotron {
 	background-image: url("images/mountain-header.jpg");
+	background-size: cover;
+	height: 100vh;
 }
 .row2, .row9 {
 	background-color: #8FCD16;
