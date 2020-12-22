@@ -10,6 +10,8 @@
 
 .btn {
 	background-color: #8FCD16 !important;
+	border-radius: 50px;
+	border: none;
 }
 
 .row5 {
