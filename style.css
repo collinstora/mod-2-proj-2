@@ -3,6 +3,10 @@
 	background-size: cover;
 	height: 100vh;
 }
+
+.row2 {
+	margin-top: 45%;
+}
 .row2, .row9 {
 	background-color: #8FCD16;
 }
