@@ -4,7 +4,16 @@
 	height: 100vh;
 	width: 100vw;
 	margin-bottom: 0px !important;
+}
 
+.jumbotron h1, p {
+	color: white;
+}
+
+.btn {
+	background-color: #8FCD16 !important;
+	border-radius: 300px !important;
+	border-color: #8FCD16 !important;
 }
 
 .row2, .row9 {
@@ -15,12 +24,6 @@
 	border-radius: 50%;
 }
 
-
-.btn {
-	background-color: #8FCD16 !important;
-	border-radius: 300px !important;
-	border: none;
-}
 
 .btn-lg {
 	padding: 15px 30px;
@@ -36,7 +39,15 @@
 {
 	background-color: #222;
 }
-.row5 {
+
+.item-1 {
 	background-image: url("images/writing.jpg");
+}
+.item-2 {
+	background-image: url("images/concert.jpg");
+}
+
+.item-3 {
+	background-image: url("procrastinate.jpg");
 }
 
