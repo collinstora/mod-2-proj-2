@@ -16,8 +16,21 @@
 	border-color: #8FCD16 !important;
 }
 
+.glyphicon {
+	font-family: 'Glyphicons Halflings';
+}
+
 .row2, .row9 {
 	background-color: #8FCD16;
+}
+
+.fas {
+	color: white;
+	position: center;
+}
+
+.row2 h1 {
+	color: white;
 }
 
 .img-circle {
@@ -38,6 +51,11 @@
 .row4 
 {
 	background-color: #222;
+}
+
+.promo-item {
+	height: 200px;
+	text-align: center;
 }
 
 .item-1 {
