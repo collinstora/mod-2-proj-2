@@ -6,10 +6,6 @@
 	margin-bottom: 0px !important;
 }
 
-.jumbotron h1, p {
-	color: white;
-}
-
 .btn {
 	background-color: #8FCD16 !important;
 	border-radius: 300px !important;
@@ -29,10 +25,6 @@
 	position: center;
 }
 
-.row2 h1 {
-	color: white;
-}
-
 .img-circle {
 	border-radius: 50%;
 }
@@ -43,23 +35,26 @@
 }
 
 .btn-default {
-	border-color: #fff;
+	border-color: #fff ;
 	background-color: #fff !important;
-
 }
 
+.row3 .img-responsive {
+	height: 50vh;
+}
 .row4 
 {
 	background-color: #222;
 }
 
-.promo-item {
-	height: 200px;
+.promo {
 	text-align: center;
+	color: white;
 }
 
 .item-1 {
 	background-image: url("images/writing.jpg");
+	
 }
 .item-2 {
 	background-image: url("images/concert.jpg");
