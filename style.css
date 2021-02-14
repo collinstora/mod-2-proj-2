@@ -16,7 +16,24 @@
 	border-color: #8FCD16 !important;
 }
 
-.row3 {
+@media screen and (max-width: 800px) and (min-width: 1000px) {
+  .img-fluid {
+      max-width: 100%;
+      height: auto;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .media img {
+  	height: 50%;
+  	width: 50%;
+  }
+}
+
+.media {
+	position: relative;
+}
+.media2 {
 	background-color: #232323;
 } 
 

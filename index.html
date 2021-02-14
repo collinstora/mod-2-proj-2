@@ -38,7 +38,7 @@
 	<!-- Navbar brand for the logo & makes it a link, Navigation in navbars will also grow to occupy as much horizontal space as possible-->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 	  <a class="navbar-brand" href="#"> 
-	  	<i class="fas fa-fire"></i> LOGO</a>
+	  	<i class="fas fa-fire"></i>LOGO</a>
 
 	<!-- Navbar toggle is usually on the left but when you use it after navbar brand above, it will go to the right -->
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,31 +84,31 @@
 				</div>
 			</div>
 	
-		
-		<div class="container-fluid">
-		<div class="media mt-5 mb-5 p-5">
-			<img class="img-responsive img-circle center-block" src="images/microphone.jpg" alt="#">
-			<div class="media-body ml-5">
-				<h1 class="display-5">Best in Class</h1>
-				<p class="lead">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+	<!-- Media Class 1 -->
+		<div class="container-fluid media1">
+		<div class="row align-items-center media mt-5 mb-5 pt-5 pb-5 h-75">
+			<img class="img-fluid img-circle ml-5 p-3" src="images/microphone.jpg" alt="#">
+			<div class="col-sm-6 media-body pr-5">
+				<h1 class="display-5 font-weight-light">Best in Class</h1>
+				<p class="lead text-muted">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
 				<button type="button" class="btn btn-primary btn-lg">CLASSIFY IT</button>
 			</div>
 		</div>
 		</div>
 
-
-		<div class="container-fluid row3">
-		<div class="media mt-5 mb-5 p-5">
-			<div class="media-body mr-5">
-				<h1 class="display-5 text-light">Superior Quality</h1>
+	<!-- Media Class 2 -->
+		<div class="container-fluid media2">
+		<div class=" row align-items-center media mt-5 mb-5 pt-5 pb-5 h-75">
+			<div class="col-sm-6 media-body pl-5">
+				<h1 class="display-5 font-weight-light text-light">Superior Quality</h1>
 				<p class="lead text-light">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
 				<button type="button" class="btn btn-default btn-lg">TEST IT</button>
 			</div>
-			<img class="img-responsive img-circle" src="images/iphone.jpg" alt="#">
+			<img class="img-fluid img-circle mr-5 p-3" src="images/iphone.jpg" alt="#">
 		</div>
 		</div>
 			
-		
+	<!-- Promo Class -->
 			<div class="container-fluid">
 				<div class="row promo">
 					<div class="col-md-4 item-1">
@@ -124,6 +124,8 @@
 					</div>
 				</div>
 			</div>
+
+	<!-- Final Row -->		
 		<div class="container-fluid">
 			<div class="row row8 p-3 text-center">
 				<div class="col-12">
@@ -134,6 +136,7 @@
 			</div>
 		</div>
 
+	<!-- Contact Us -->
 		<div class="container-fluid">
 			<div class="row row9 p-5 text-center">
 				<div class="col-12">
@@ -142,7 +145,7 @@
 			</div>
 		</div>
 
-		<!-- Footer -->
+	<!-- Footer -->
 			<div class="row row10 p-3">
 				<div class="col-12">
 				</div>
@@ -154,8 +157,6 @@
 		
 
 <!-- Things I learned 
-	
-	Header
 	- Jumbotron for the header
 	- Custom Headings for Bootstrap (largest to smallest)
 		<h1 class="display-1">Display 1</h1>
@@ -164,16 +165,24 @@
 		<h1 class="display-4">Display 4</h1>
 	- Make a paragraph stand out by using .lead
 		<p class="lead"> Hello World </p>
-
+	- Change width + height of an element (25,50,75,100%)
+		<div class="h-25"></div>
+		<div class="w-25"></div>
 	- Change the color of text & bg color of rows
-	* change the radius of the circles
+	- Change the radius of the elements
+		img src="" class="rounded/rounded circle/img-thumbnail/rounded-top(bottom,left,right)/rounded-0" alt"#">
 	- In CSS, height: 100vh; & width: 100vw;
 		- vh and vw is viewpoint height and viewpoint width. use these instead of % with height and width because they will make the element 100% of the viewport regardless of if its a small, large, med screen
 		- Can also use it to control the height of an element with max-height/max-width: 50vh/vw;
-	- .jumbotron {
-	margin-bottom: 0px !important;
-	}
-	removes space between jumbotron and the next row
+	- 	removes space between jumbotron and the next row
+			.jumbotron {
+			margin-bottom: 0px !important;
+			}
+	- img grows in size proportionally with the screen. use img-fluid in html
+		.img-fluid {
+	      max-width: 100%;
+	      height: auto;
+	    }
 	
 	
 
