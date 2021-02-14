@@ -34,10 +34,39 @@
 	</head>
 	<body>
 		
-		<!-- Nav -->
+	<!-- Nav -->
+	<!-- Navbar brand for the logo & makes it a link, Navigation in navbars will also grow to occupy as much horizontal space as possible-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#"> 
+	  	<i class="fas fa-fire"></i> LOGO</a>
+
+	<!-- Navbar toggle is usually on the left but when you use it after navbar brand above, it will go to the right -->
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <div class="navbar-nav">
+	      <a class="nav-item  nav-link active" href="#">Home
+	        <span class="sr-only">(current)</span></a>
+	      <a class="nav-item nav-link" href="#">Products</a> 
+
+	 <!-- Dropdown menu with one of the menu option -->
+	      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	       	 <a class="dropdown-item" href="#">Engage</a>
+	       	 <a class="dropdown-item" href="#">Pontificate</a>
+	       	 <a class="dropdown-item" href="#">Synergize</a>
+	        </div>
+	        <a class="nav-item nav-link" href="#">Products</a>
+	 	 </div>
+	 	</div>
+	</nav>
+
+
 		<!-- Jumbotron Header -->
   			<div class="jumbotron jumbotron-fluid">
-  				<div class="container text-center text-light">
+  				<div class="container text-center text-light mt-5 p-5">
   					<h1 class="display-1">Dramatically Engage</h1>
   					<p class="lead">Objectively innovate empowered manufactured products whereas parallel platforms.</p>
   					<div class="btn btn-primary btn-lg">ENGAGE NOW</button>
@@ -55,32 +84,31 @@
 				</div>
 			</div>
 	
-			<div class="container-fluid mt-5 mb-5 pt-5 pb-5">
-				<div class="row row3">
-					<div class="col-md-6">
-						<img class="img-responsive img-circle center-block" src="images/microphone.jpg" alt="#">
-					</div>
-					<div class="col-md-6">
-						<h3>Best In Class</h3>
-						<p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
-						<button type="button" class="btn btn-primary btn-lg">CLASSIFY IT</button>
-					</div>
-				</div>
-			</div>
-
-		<div class= "container-fluid">
-			<div class="row row4 mt-5 pt-5 pb-5">
-				<div class="col-md-6">
-					<h3 class="text-light">Superior Quality</h3>
-					<p class="text-light">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
-					<button type="button" class="btn btn-default btn-lg">TEST IT</button>
-				</div>
-				<div class="col-md-6">
-					<img class="img-responsive img-circle" src="images/iphone.jpg" alt="#">
-				</div>
+		
+		<div class="container-fluid">
+		<div class="media mt-5 mb-5 p-5">
+			<img class="img-responsive img-circle center-block" src="images/microphone.jpg" alt="#">
+			<div class="media-body ml-5">
+				<h1 class="display-5">Best in Class</h1>
+				<p class="lead">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+				<button type="button" class="btn btn-primary btn-lg">CLASSIFY IT</button>
 			</div>
 		</div>
+		</div>
 
+
+		<div class="container-fluid row3">
+		<div class="media mt-5 mb-5 p-5">
+			<div class="media-body mr-5">
+				<h1 class="display-5 text-light">Superior Quality</h1>
+				<p class="lead text-light">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+				<button type="button" class="btn btn-default btn-lg">TEST IT</button>
+			</div>
+			<img class="img-responsive img-circle" src="images/iphone.jpg" alt="#">
+		</div>
+		</div>
+			
+		
 			<div class="container-fluid">
 				<div class="row promo">
 					<div class="col-md-4 item-1">

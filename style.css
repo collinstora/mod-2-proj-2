@@ -1,3 +1,7 @@
+.fa-fire {
+	color: #8FCD16 !important;
+}
+
 .jumbotron {
 	background-image: url("images/mountain-header.jpg");
 	background-size: cover;
@@ -12,9 +16,9 @@
 	border-color: #8FCD16 !important;
 }
 
-.glyphicon {
-	font-family: 'Glyphicons Halflings';
-}
+.row3 {
+	background-color: #232323;
+} 
 
 .row2, .row9 {
 	background-color: #8FCD16;
@@ -35,13 +39,18 @@
 }
 
 .btn-default {
-	border-color: #fff ;
+	border-color: #fff !important;
 	background-color: #fff !important;
 }
 
-.row3 .img-responsive {
-	height: 50vh;
+.btn-primary {
+	border-color: ;
 }
+
+.img-responsive {
+	height: 35vh;
+}
+
 .row4 
 {
 	background-color: #222;
