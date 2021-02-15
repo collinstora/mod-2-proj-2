@@ -6,8 +6,12 @@
 	color: #eb3812 !important;
 }
 
-.navbar-default .navbar-brand i {
-	color: #8FCD16;
+.navbar-header a {
+	color: #8FCD16 !important;
+}
+
+.navbar-nav a:hover {
+	color: #8FCD16 !important;
 }
 
 .jumbotron {
